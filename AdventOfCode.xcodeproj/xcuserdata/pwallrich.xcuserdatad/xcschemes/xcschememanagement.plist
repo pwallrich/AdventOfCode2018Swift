@@ -4,10 +4,48 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AOC2018.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>AdventOfCode.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>CF34CEC521C5A424009FAA36</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF34CEEC21C5BB8D009FAA36</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF34CEF821C5BFF7009FAA36</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF34CF0721C5C119009FAA36</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF34CF4821C5C5D8009FAA36</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF34CF5021C5C5D8009FAA36</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

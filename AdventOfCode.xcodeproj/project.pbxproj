@@ -8,7 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		CF34CECA21C5A424009FAA36 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF34CEC921C5A424009FAA36 /* main.swift */; };
+		CF34CF5221C5C5D8009FAA36 /* AOC2018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF34CF4921C5C5D8009FAA36 /* AOC2018.framework */; };
+		CF34CF5721C5C5D8009FAA36 /* AOC2018Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF34CF5621C5C5D8009FAA36 /* AOC2018Tests.swift */; };
+		CF34CF5921C5C5D8009FAA36 /* AOC2018.h in Headers */ = {isa = PBXBuildFile; fileRef = CF34CF4B21C5C5D8009FAA36 /* AOC2018.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF34CF6021C5C648009FAA36 /* AOC2018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF34CF4921C5C5D8009FAA36 /* AOC2018.framework */; };
+		CF34CF6121C5C64F009FAA36 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF34CED421C5AD20009FAA36 /* Day.swift */; };
+		CF34CF6221C5C652009FAA36 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF34CEDB21C5B697009FAA36 /* Character.swift */; };
+		CF34CF6321C5C655009FAA36 /* 2018-Day5.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF34CED721C5AE56009FAA36 /* 2018-Day5.swift */; };
+		CF34CF6821C5C69E009FAA36 /* Day5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF34CF6721C5C69E009FAA36 /* Day5Tests.swift */; };
+		CF34CF6F21C67022009FAA36 /* 2018-Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF34CF6E21C67022009FAA36 /* 2018-Day1.swift */; };
+		CF34CF7521C672F7009FAA36 /* Day1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF34CF7421C672F7009FAA36 /* Day1Tests.swift */; };
+		CF34CF7721C6748E009FAA36 /* Year2018.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF34CF7621C6748E009FAA36 /* Year2018.swift */; };
+		CF34CF7921C67AB7009FAA36 /* 2018-Day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF34CF7821C67AB7009FAA36 /* 2018-Day2.swift */; };
+		CF34CF7E21C67C1F009FAA36 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF34CF7D21C67C1F009FAA36 /* Int.swift */; };
+		CF34CF8021C67C38009FAA36 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF34CF7F21C67C38009FAA36 /* String.swift */; };
+		CF34CF8221C67CD4009FAA36 /* Day2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF34CF8121C67CD4009FAA36 /* Day2Tests.swift */; };
+		CF34CF8421C67DE8009FAA36 /* 2018-Day3.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF34CF8321C67DA8009FAA36 /* 2018-Day3.swift */; };
+		CF34CF8621C67DF3009FAA36 /* input.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF34CF8521C67DF2009FAA36 /* input.txt */; };
+		CF34CF8821C67E2D009FAA36 /* Rect.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF34CF8721C67E2D009FAA36 /* Rect.swift */; };
+		CF34CF8A21C67F10009FAA36 /* Day3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF34CF8921C67F0F009FAA36 /* Day3Tests.swift */; };
+		CF34CF8D21C680D0009FAA36 /* Day4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF34CF8C21C680D0009FAA36 /* Day4Tests.swift */; };
+		CF34CF8E21C680E5009FAA36 /* 2018-Day4.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF34CF8B21C68070009FAA36 /* 2018-Day4.swift */; };
+		CF34CF9321C684D3009FAA36 /* 2018-Day6.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF34CF9221C68469009FAA36 /* 2018-Day6.swift */; };
+		CF34CF9721C68538009FAA36 /* Day6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF34CF9621C68538009FAA36 /* Day6Tests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF34CF5321C5C5D8009FAA36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF34CEBE21C5A424009FAA36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF34CF4821C5C5D8009FAA36;
+			remoteInfo = AOC2018;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		CF34CEC421C5A424009FAA36 /* CopyFiles */ = {
@@ -25,6 +58,37 @@
 /* Begin PBXFileReference section */
 		CF34CEC621C5A424009FAA36 /* AdventOfCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdventOfCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF34CEC921C5A424009FAA36 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CF34CED021C5A445009FAA36 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		CF34CED421C5AD20009FAA36 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		CF34CED721C5AE56009FAA36 /* 2018-Day5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2018-Day5.swift"; sourceTree = "<group>"; };
+		CF34CEDB21C5B697009FAA36 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		CF34CF4921C5C5D8009FAA36 /* AOC2018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AOC2018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF34CF4B21C5C5D8009FAA36 /* AOC2018.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AOC2018.h; sourceTree = "<group>"; };
+		CF34CF4C21C5C5D8009FAA36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF34CF5121C5C5D8009FAA36 /* AOC2018Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AOC2018Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF34CF5621C5C5D8009FAA36 /* AOC2018Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOC2018Tests.swift; sourceTree = "<group>"; };
+		CF34CF5821C5C5D8009FAA36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF34CF6721C5C69E009FAA36 /* Day5Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day5Tests.swift; sourceTree = "<group>"; };
+		CF34CF6E21C67022009FAA36 /* 2018-Day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2018-Day1.swift"; sourceTree = "<group>"; };
+		CF34CF7021C670A0009FAA36 /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		CF34CF7421C672F7009FAA36 /* Day1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1Tests.swift; sourceTree = "<group>"; };
+		CF34CF7621C6748E009FAA36 /* Year2018.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Year2018.swift; sourceTree = "<group>"; };
+		CF34CF7821C67AB7009FAA36 /* 2018-Day2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2018-Day2.swift"; sourceTree = "<group>"; };
+		CF34CF7C21C67BB7009FAA36 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		CF34CF7D21C67C1F009FAA36 /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		CF34CF7F21C67C38009FAA36 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		CF34CF8121C67CD4009FAA36 /* Day2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2Tests.swift; sourceTree = "<group>"; };
+		CF34CF8321C67DA8009FAA36 /* 2018-Day3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2018-Day3.swift"; sourceTree = "<group>"; };
+		CF34CF8521C67DF2009FAA36 /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		CF34CF8721C67E2D009FAA36 /* Rect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rect.swift; sourceTree = "<group>"; };
+		CF34CF8921C67F0F009FAA36 /* Day3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3Tests.swift; sourceTree = "<group>"; };
+		CF34CF8B21C68070009FAA36 /* 2018-Day4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2018-Day4.swift"; sourceTree = "<group>"; };
+		CF34CF8C21C680D0009FAA36 /* Day4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4Tests.swift; sourceTree = "<group>"; };
+		CF34CF8F21C6816A009FAA36 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		CF34CF9221C68469009FAA36 /* 2018-Day6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2018-Day6.swift"; sourceTree = "<group>"; };
+		CF34CF9621C68538009FAA36 /* Day6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6Tests.swift; sourceTree = "<group>"; };
+		CF34CF9821C685AF009FAA36 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		CF34CF9A21C687A8009FAA36 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +96,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF34CF6021C5C648009FAA36 /* AOC2018.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF34CF4621C5C5D8009FAA36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF34CF4E21C5C5D8009FAA36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF34CF5221C5C5D8009FAA36 /* AOC2018.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,8 +121,12 @@
 		CF34CEBD21C5A424009FAA36 = {
 			isa = PBXGroup;
 			children = (
+				CF34CF9A21C687A8009FAA36 /* README.md */,
 				CF34CEC821C5A424009FAA36 /* AdventOfCode */,
+				CF34CF4A21C5C5D8009FAA36 /* AOC2018 */,
+				CF34CF5521C5C5D8009FAA36 /* AOC2018Tests */,
 				CF34CEC721C5A424009FAA36 /* Products */,
+				CF34CF2621C5C25F009FAA36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -50,6 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				CF34CEC621C5A424009FAA36 /* AdventOfCode */,
+				CF34CF4921C5C5D8009FAA36 /* AOC2018.framework */,
+				CF34CF5121C5C5D8009FAA36 /* AOC2018Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,7 +148,123 @@
 			path = AdventOfCode;
 			sourceTree = "<group>";
 		};
+		CF34CED621C5AE35009FAA36 /* Day5 */ = {
+			isa = PBXGroup;
+			children = (
+				CF34CED721C5AE56009FAA36 /* 2018-Day5.swift */,
+				CF34CED021C5A445009FAA36 /* input.txt */,
+			);
+			path = Day5;
+			sourceTree = "<group>";
+		};
+		CF34CEDA21C5B687009FAA36 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CF34CED421C5AD20009FAA36 /* Day.swift */,
+				CF34CEDB21C5B697009FAA36 /* Character.swift */,
+				CF34CF7D21C67C1F009FAA36 /* Int.swift */,
+				CF34CF7F21C67C38009FAA36 /* String.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		CF34CF2621C5C25F009FAA36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF34CF4A21C5C5D8009FAA36 /* AOC2018 */ = {
+			isa = PBXGroup;
+			children = (
+				CF34CF6A21C66FF4009FAA36 /* Day1 */,
+				CF34CF6B21C66FFC009FAA36 /* Day2 */,
+				CF34CF6C21C67001009FAA36 /* Day3 */,
+				CF34CF6D21C67006009FAA36 /* Day4 */,
+				CF34CED621C5AE35009FAA36 /* Day5 */,
+				CF34CF6921C66FDE009FAA36 /* Day6 */,
+				CF34CEDA21C5B687009FAA36 /* Helper */,
+				CF34CF4B21C5C5D8009FAA36 /* AOC2018.h */,
+				CF34CF4C21C5C5D8009FAA36 /* Info.plist */,
+				CF34CF7621C6748E009FAA36 /* Year2018.swift */,
+			);
+			path = AOC2018;
+			sourceTree = "<group>";
+		};
+		CF34CF5521C5C5D8009FAA36 /* AOC2018Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CF34CF5621C5C5D8009FAA36 /* AOC2018Tests.swift */,
+				CF34CF7421C672F7009FAA36 /* Day1Tests.swift */,
+				CF34CF8121C67CD4009FAA36 /* Day2Tests.swift */,
+				CF34CF8921C67F0F009FAA36 /* Day3Tests.swift */,
+				CF34CF8C21C680D0009FAA36 /* Day4Tests.swift */,
+				CF34CF6721C5C69E009FAA36 /* Day5Tests.swift */,
+				CF34CF9621C68538009FAA36 /* Day6Tests.swift */,
+				CF34CF5821C5C5D8009FAA36 /* Info.plist */,
+			);
+			path = AOC2018Tests;
+			sourceTree = "<group>";
+		};
+		CF34CF6921C66FDE009FAA36 /* Day6 */ = {
+			isa = PBXGroup;
+			children = (
+				CF34CF9221C68469009FAA36 /* 2018-Day6.swift */,
+				CF34CF9821C685AF009FAA36 /* input.txt */,
+			);
+			path = Day6;
+			sourceTree = "<group>";
+		};
+		CF34CF6A21C66FF4009FAA36 /* Day1 */ = {
+			isa = PBXGroup;
+			children = (
+				CF34CF7021C670A0009FAA36 /* input.txt */,
+				CF34CF6E21C67022009FAA36 /* 2018-Day1.swift */,
+			);
+			path = Day1;
+			sourceTree = "<group>";
+		};
+		CF34CF6B21C66FFC009FAA36 /* Day2 */ = {
+			isa = PBXGroup;
+			children = (
+				CF34CF7821C67AB7009FAA36 /* 2018-Day2.swift */,
+				CF34CF7C21C67BB7009FAA36 /* input.txt */,
+			);
+			path = Day2;
+			sourceTree = "<group>";
+		};
+		CF34CF6C21C67001009FAA36 /* Day3 */ = {
+			isa = PBXGroup;
+			children = (
+				CF34CF8321C67DA8009FAA36 /* 2018-Day3.swift */,
+				CF34CF8521C67DF2009FAA36 /* input.txt */,
+				CF34CF8721C67E2D009FAA36 /* Rect.swift */,
+			);
+			path = Day3;
+			sourceTree = "<group>";
+		};
+		CF34CF6D21C67006009FAA36 /* Day4 */ = {
+			isa = PBXGroup;
+			children = (
+				CF34CF8B21C68070009FAA36 /* 2018-Day4.swift */,
+				CF34CF8F21C6816A009FAA36 /* input.txt */,
+			);
+			path = Day4;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CF34CF4421C5C5D8009FAA36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF34CF5921C5C5D8009FAA36 /* AOC2018.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		CF34CEC521C5A424009FAA36 /* AdventOfCode */ = {
@@ -82,6 +284,42 @@
 			productReference = CF34CEC621C5A424009FAA36 /* AdventOfCode */;
 			productType = "com.apple.product-type.tool";
 		};
+		CF34CF4821C5C5D8009FAA36 /* AOC2018 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF34CF5A21C5C5D8009FAA36 /* Build configuration list for PBXNativeTarget "AOC2018" */;
+			buildPhases = (
+				CF34CF4421C5C5D8009FAA36 /* Headers */,
+				CF34CF4521C5C5D8009FAA36 /* Sources */,
+				CF34CF4621C5C5D8009FAA36 /* Frameworks */,
+				CF34CF4721C5C5D8009FAA36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AOC2018;
+			productName = AOC2018;
+			productReference = CF34CF4921C5C5D8009FAA36 /* AOC2018.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF34CF5021C5C5D8009FAA36 /* AOC2018Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF34CF5D21C5C5D8009FAA36 /* Build configuration list for PBXNativeTarget "AOC2018Tests" */;
+			buildPhases = (
+				CF34CF4D21C5C5D8009FAA36 /* Sources */,
+				CF34CF4E21C5C5D8009FAA36 /* Frameworks */,
+				CF34CF4F21C5C5D8009FAA36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF34CF5421C5C5D8009FAA36 /* PBXTargetDependency */,
+			);
+			name = AOC2018Tests;
+			productName = AOC2018Tests;
+			productReference = CF34CF5121C5C5D8009FAA36 /* AOC2018Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -90,9 +328,15 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = RATIONAL;
+				ORGANIZATIONNAME = FIStudios;
 				TargetAttributes = {
 					CF34CEC521C5A424009FAA36 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CF34CF4821C5C5D8009FAA36 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CF34CF5021C5C5D8009FAA36 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -110,9 +354,29 @@
 			projectRoot = "";
 			targets = (
 				CF34CEC521C5A424009FAA36 /* AdventOfCode */,
+				CF34CF4821C5C5D8009FAA36 /* AOC2018 */,
+				CF34CF5021C5C5D8009FAA36 /* AOC2018Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF34CF4721C5C5D8009FAA36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF34CF8621C67DF3009FAA36 /* input.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF34CF4F21C5C5D8009FAA36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CF34CEC221C5A424009FAA36 /* Sources */ = {
@@ -123,7 +387,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CF34CF4521C5C5D8009FAA36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF34CF6321C5C655009FAA36 /* 2018-Day5.swift in Sources */,
+				CF34CF7921C67AB7009FAA36 /* 2018-Day2.swift in Sources */,
+				CF34CF8E21C680E5009FAA36 /* 2018-Day4.swift in Sources */,
+				CF34CF6F21C67022009FAA36 /* 2018-Day1.swift in Sources */,
+				CF34CF8821C67E2D009FAA36 /* Rect.swift in Sources */,
+				CF34CF7E21C67C1F009FAA36 /* Int.swift in Sources */,
+				CF34CF9321C684D3009FAA36 /* 2018-Day6.swift in Sources */,
+				CF34CF8421C67DE8009FAA36 /* 2018-Day3.swift in Sources */,
+				CF34CF6121C5C64F009FAA36 /* Day.swift in Sources */,
+				CF34CF7721C6748E009FAA36 /* Year2018.swift in Sources */,
+				CF34CF8021C67C38009FAA36 /* String.swift in Sources */,
+				CF34CF6221C5C652009FAA36 /* Character.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF34CF4D21C5C5D8009FAA36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF34CF6821C5C69E009FAA36 /* Day5Tests.swift in Sources */,
+				CF34CF8221C67CD4009FAA36 /* Day2Tests.swift in Sources */,
+				CF34CF5721C5C5D8009FAA36 /* AOC2018Tests.swift in Sources */,
+				CF34CF8A21C67F10009FAA36 /* Day3Tests.swift in Sources */,
+				CF34CF8D21C680D0009FAA36 /* Day4Tests.swift in Sources */,
+				CF34CF7521C672F7009FAA36 /* Day1Tests.swift in Sources */,
+				CF34CF9721C68538009FAA36 /* Day6Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF34CF5421C5C5D8009FAA36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF34CF4821C5C5D8009FAA36 /* AOC2018 */;
+			targetProxy = CF34CF5321C5C5D8009FAA36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		CF34CECB21C5A424009FAA36 /* Debug */ = {
@@ -246,7 +551,13 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 382CY3SV3H;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+					"@executable_path",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -256,6 +567,108 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 382CY3SV3H;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+					"@executable_path",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		CF34CF5B21C5C5D8009FAA36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 382CY3SV3H;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = AOC2018/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.fistudios.pwall.AOC2018;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF34CF5C21C5C5D8009FAA36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 382CY3SV3H;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = AOC2018/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.fistudios.pwall.AOC2018;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF34CF5E21C5C5D8009FAA36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 382CY3SV3H;
+				INFOPLIST_FILE = AOC2018Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.fistudios.pwall.AOC2018Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		CF34CF5F21C5C5D8009FAA36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 382CY3SV3H;
+				INFOPLIST_FILE = AOC2018Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.fistudios.pwall.AOC2018Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -278,6 +691,24 @@
 			buildConfigurations = (
 				CF34CECE21C5A424009FAA36 /* Debug */,
 				CF34CECF21C5A424009FAA36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF34CF5A21C5C5D8009FAA36 /* Build configuration list for PBXNativeTarget "AOC2018" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF34CF5B21C5C5D8009FAA36 /* Debug */,
+				CF34CF5C21C5C5D8009FAA36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF34CF5D21C5C5D8009FAA36 /* Build configuration list for PBXNativeTarget "AOC2018Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF34CF5E21C5C5D8009FAA36 /* Debug */,
+				CF34CF5F21C5C5D8009FAA36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
